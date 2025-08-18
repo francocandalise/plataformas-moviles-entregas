@@ -1,36 +1,37 @@
 h1.titulo {
-	text-align: center;
+  text-align: center;
 }
 
 p {
-	font-family: serif;
+  font-family: serif;
 }
 
 #primer-parrafo {
-	background-color: #CEE;
+  background-color: #CEE;
 }
 
 #primer-parrafo em {
-	color: #933;
+  color: #933;
 }
 
 a {
-	outline: 1px solid #333;
+  outline: 1px solid #333;
 }
 
 p.fuente {
-	opacity: 100%;
+  opacity: 100%;
 }
 
 p:not([id]) {
-	text-shadow: none;
+  text-shadow: none;
 }
+
+/* BONUS TRACK */
 
 p.fuente {
-	color: #000;
+  color: #000;
 }
-
-span.complicado {
-	font-weight: bold;
-	color: #C62;
+.complicado {
+  font-weight: bold;
+  color: #C62;
 }
